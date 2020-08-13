@@ -12,10 +12,11 @@ body {
 
 .container {
 	max-width: 1200px;
-	margin: 0 auto;
+	width: 90%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-flow: row wrap;
 }
 
 h1,
@@ -46,21 +47,22 @@ h4 {
 p {
 	font-size: .875em;
 	line-height: 21px;
-  padding: 0 30px;
+  padding: 0 0px;
 }
 
 /*The widths are in a percentage!*/
 header {
-	border-bottom: 3px solid #77a466;
-	margin: 0 auto;
+	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 header h1 {
 	margin: 0;
-	padding: 38px 0;
+	padding: 38px 0 20px 0;
+	border-bottom: 3px solid #77a466;
 }
 
 header h1 span {
@@ -81,7 +83,10 @@ header nav ul li {
 	font-weight: 700;
 	font-size: .875em;
 	padding: 0 10px;
-	display: inline;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 }
 
 header nav ul li a{
@@ -96,6 +101,7 @@ header nav ul li a{
 	display: flex;
 	justify-content: center;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 .main-image {
@@ -104,11 +110,20 @@ header nav ul li a{
 
 .main-image img {
 	width: 100%;
+	border-top: 3px solid #77a466;
 	border-bottom: 3px solid #77a466;
+	display; flex;
+	justify-content: flex-end;
+	align-items: center;
 }
 
 .main-title {
 	height: auto;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
 }
 
 .main-title h3 {
@@ -126,7 +141,7 @@ header nav ul li a{
 .section-one,
 .section-two,
 .section-three {
-	width: 33%;
+	width: 100%;
 	height: auto;
 	border-top: 1px solid #eee;
 }
@@ -136,19 +151,19 @@ header nav ul li a{
 }
 
 .section-two {
-	border-left: 1px solid #eee;
-	border-right: 1px solid #eee;
+
 }
 
 .section-two h4,
 .section-three h4 {
-	padding: 10px 30px;
+	padding: 10px 0px;
 }
 
 .menu {
 	list-style: none;
 	padding: 0;
 }
+
 .menu li {
 	padding: 10px 0;
 	color:#77a466;
@@ -168,7 +183,7 @@ header nav ul li a{
 /*The widths are in a percentage!*/
 footer {
 	border-top: 3px solid #eee;
-	margin: 0 auto;
+	width: 100%;
 	text-align: center;
 	display: flex;
 	justify-content: center;
