@@ -58,12 +58,14 @@ header {
 	align-items: center;
 	flex-flow: column wrap;
 	width: 100%;
+	text-align: center;
 }
 
 header h1 {
 	margin: 0;
 	padding: 38px 0 20px 0;
 	border-bottom: 3px solid #77a466;
+	width: 100%;
 }
 
 header h1 span {
@@ -83,11 +85,8 @@ header nav ul li {
 	text-transform: uppercase;
 	font-weight: 700;
 	font-size: .875em;
-	padding: 0 10px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	flex-wrap: wrap;
+	padding: 10 0px;
+	list-style-type: none;
 }
 
 header nav ul li a{
