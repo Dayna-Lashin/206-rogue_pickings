@@ -53,11 +53,11 @@ p {
 
 /*The widths are in a percentage!*/
 header {
-	width: 100%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	flex-wrap: wrap;
+	flex-flow: column wrap;
+	width: 100%;
 }
 
 header h1 {
